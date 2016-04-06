@@ -1,0 +1,13 @@
+D:\Program Files\Visual Studio 2015 Project\Arithmetic2.0\Arithmetic2.0\bin\Debug\Arithmetic2.0.exe.config
+D:\Program Files\Visual Studio 2015 Project\Arithmetic2.0\Arithmetic2.0\bin\Debug\Arithmetic2.0.exe
+D:\Program Files\Visual Studio 2015 Project\Arithmetic2.0\Arithmetic2.0\bin\Debug\Arithmetic2.0.pdb
+D:\Program Files\Visual Studio 2015 Project\Arithmetic2.0\Arithmetic2.0\obj\Debug\Arithmetic2.0.csprojResolveAssemblyReference.cache
+D:\Program Files\Visual Studio 2015 Project\Arithmetic2.0\Arithmetic2.0\obj\Debug\Arithmetic2._0.Form1.resources
+D:\Program Files\Visual Studio 2015 Project\Arithmetic2.0\Arithmetic2.0\obj\Debug\Arithmetic2._0.Form2.resources
+D:\Program Files\Visual Studio 2015 Project\Arithmetic2.0\Arithmetic2.0\obj\Debug\Arithmetic2._0.Properties.Resources.resources
+D:\Program Files\Visual Studio 2015 Project\Arithmetic2.0\Arithmetic2.0\obj\Debug\Arithmetic2.0.csproj.GenerateResource.Cache
+D:\Program Files\Visual Studio 2015 Project\Arithmetic2.0\Arithmetic2.0\obj\Debug\Arithmetic2.0.exe
+D:\Program Files\Visual Studio 2015 Project\Arithmetic2.0\Arithmetic2.0\obj\Debug\Arithmetic2.0.pdb
+C:\Users\吉庆\Desktop\11\Arithmetic2.0\Arithmetic2.0\bin\Debug\Arithmetic2.0.exe.config
+C:\Users\吉庆\Desktop\11\Arithmetic2.0\Arithmetic2.0\obj\Debug\Arithmetic2.0.exe
+C:\Users\吉庆\Desktop\11\Arithmetic2.0\Arithmetic2.0\obj\Debug\Arithmetic2.0.pdb
