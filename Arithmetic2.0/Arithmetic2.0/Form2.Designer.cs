@@ -145,6 +145,7 @@
             this.but_Error.TabIndex = 9;
             this.but_Error.Text = "错题本";
             this.but_Error.UseVisualStyleBackColor = true;
+            this.but_Error.Click += new System.EventHandler(this.but_Error_Click);
             // 
             // but_Clear
             // 

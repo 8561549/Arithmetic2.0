@@ -41,7 +41,7 @@ namespace Arithmetic2._0
             }
         }
 
-        private void rbFraction_CheckedChanged(object sender, EventArgs e)
+        private void rbFraction_CheckedChanged(object sender, EventArgs e)//分数选择
         {
             if(rbFraction.Checked == true)
             {
@@ -85,7 +85,7 @@ namespace Arithmetic2._0
             }
         }
 
-        private void rbBrackets_CheckedChanged(object sender, EventArgs e)
+        private void rbBrackets_CheckedChanged(object sender, EventArgs e)//括号选择
         {
             if(rbBrackets.Checked == true)
             {
@@ -93,7 +93,7 @@ namespace Arithmetic2._0
             }
         }
 
-        private void cbAdd_CheckedChanged(object sender, EventArgs e)
+        private void cbAdd_CheckedChanged(object sender, EventArgs e)//运算方法选择
         {
             if (rbFraction.Checked == true)
             {

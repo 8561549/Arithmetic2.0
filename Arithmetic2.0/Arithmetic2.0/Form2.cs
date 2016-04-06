@@ -17,7 +17,8 @@ namespace Arithmetic2._0
         Output output = new Output();
         Operation operation = new Operation();
         public int i;//控制循环数
-        public Form2(string opnum, string subnum, string nummin, string nummax,int mode)
+
+        public Form2(string opnum, string subnum, string nummin, string nummax,int mode)//获取参数
         {
             InitializeComponent();
             define.opnum = int.Parse(opnum);
@@ -126,7 +127,8 @@ namespace Arithmetic2._0
             this.Close();
             this.DialogResult = DialogResult.OK;
         }
-        private void Form2_FormClosing(object sender, FormClosingEventArgs e)
+
+        private void Form2_FormClosing(object sender, FormClosingEventArgs e)//关闭设置
         {
             this.DialogResult = DialogResult.OK;
         }
@@ -155,6 +157,12 @@ namespace Arithmetic2._0
             txt_Ans.Text = null;
             lb_Ans.Items.Clear();
             lb_Topic.Items.Clear();
+        }
+
+        private void but_Error_Click(object sender, EventArgs e)//错题本
+        {
+            string str = System.Environment.CurrentDirectory;
+            System.IO.File.WriteAllLines(str+"F.txt",define.falseans,Encoding.Default);
         }
     }
 }

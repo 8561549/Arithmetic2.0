@@ -19,7 +19,7 @@ namespace Arithmetic2._0
             Application.Run(new Form1());
         }
     }
-    public class Define //关键字定义
+    public class Define //变量定义
     {
         public int num1, num2,num3,num4,num5,num6;//随机数
         public string[] falseans = new string[100];//错题数组
@@ -35,6 +35,7 @@ namespace Arithmetic2._0
         public int opmax;
         public int correctnum;//答题正确数目
     }
+
     public class Operation//取得运算结果
     {
         public void Add(Define define, Form2 form2)//加法结果
@@ -70,10 +71,9 @@ namespace Arithmetic2._0
             define.ans[form2.i] = ((define.num1 * define.num4).ToString() + "/" + (define.num2 * define.num3).ToString());
         }
     }
+
     public class Output//打印输出
     {
-
-
         public void AddOutput(Define define, Form2 form2)//加法输出
         {
             form2.lb_Topic.Items.Add(define.num1 + "+" + define.num2 + "=");
@@ -103,34 +103,38 @@ namespace Arithmetic2._0
             }
         }
 
-        public int GCD(int a, int b)//求最大公约数
+        public int GCD(int a, int b)//求最大公约数并通分
         {
-            int n = a < b ? a : b;//从ab中的最小值开始计算。
-            while (n >= 1)
+            int c,n;
+            n = a;
+            while (b != 0)  /* 余数不为0，继续相除，直到余数为0 */
             {
-                if (a % n == 0 && b % n == 0) break;//最大公约数。
+                c = a % b;
+                a = b;
+                b = c;
             }
-            return n;
+
+            return n / a;
         }
 
         public void FaddOutput(Define define, Form2 form2)//分数加法
-        {         
-            form2.lb_Topic.Items.Add("(" + define.num1 + "/" + define.num2 + ")" + "+" + "(" + define.num3 + "/" + define.num4 + ")" + "=");
+        {
+            form2.lb_Topic.Items.Add("(" + GCD(define.num1, define.num2) + "/" + GCD(define.num2, define.num1) + ")" + "+" + "(" + GCD(define.num3, define.num4) + "/" + GCD(define.num4, define.num3) + ")" + "=");
         }
 
         public void FreduceOutput(Define define, Form2 form2)//分数减法
         {
-            form2.lb_Topic.Items.Add("(" + define.num1 + "/" + define.num2 + ")" + "-" + "(" + define.num3 + "/" + define.num4 + ")" + "=");
+            form2.lb_Topic.Items.Add("(" + GCD(define.num1, define.num2) + "/" + GCD(define.num2, define.num1) + ")" + "-" + "(" + GCD(define.num3, define.num4) + "/" + GCD(define.num4, define.num3) + ")" + "=");
         }
 
         public void FmultiplyOutput(Define define, Form2 form2)//分数乘法
         {
-            form2.lb_Topic.Items.Add("(" + define.num1 + "/" + define.num2 + ")" + "×" + "(" + define.num3 + "/" + define.num4 + ")" + "=");
+            form2.lb_Topic.Items.Add("(" + GCD(define.num1, define.num2) + "/" + GCD(define.num2, define.num1) + ")" + "×" + "(" + GCD(define.num3, define.num4) + "/" + GCD(define.num4, define.num3) + ")" + "=");
         }
 
         public void FdivideOutput(Define define, Form2 form2)//分数减法
         {
-            form2.lb_Topic.Items.Add("(" + define.num1 + "/" + define.num2 + ")" + "÷" + "(" + define.num3 + "/" + define.num4 + ")" + "=");
+            form2.lb_Topic.Items.Add("(" + GCD(define.num1, define.num2) + "/" + GCD(define.num2, define.num1) + ")" + "÷" + "(" + GCD(define.num3, define.num4) + "/" + GCD(define.num4, define.num3) + ")" + "=");
         }
     }
 }

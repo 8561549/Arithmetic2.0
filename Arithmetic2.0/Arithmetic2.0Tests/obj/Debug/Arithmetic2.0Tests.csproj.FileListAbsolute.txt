@@ -1,0 +1,9 @@
+D:\Program Files\Visual Studio 2015 Project\Arithmetic2.0\Arithmetic2.0Tests\bin\Debug\Arithmetic2.0Tests.dll
+D:\Program Files\Visual Studio 2015 Project\Arithmetic2.0\Arithmetic2.0Tests\bin\Debug\Arithmetic2.0Tests.pdb
+D:\Program Files\Visual Studio 2015 Project\Arithmetic2.0\Arithmetic2.0Tests\bin\Debug\Arithmetic2.0.exe
+D:\Program Files\Visual Studio 2015 Project\Arithmetic2.0\Arithmetic2.0Tests\bin\Debug\Microsoft.VisualStudio.QualityTools.UnitTestFramework.dll
+D:\Program Files\Visual Studio 2015 Project\Arithmetic2.0\Arithmetic2.0Tests\bin\Debug\Arithmetic2.0.pdb
+D:\Program Files\Visual Studio 2015 Project\Arithmetic2.0\Arithmetic2.0Tests\bin\Debug\zh-Hans\Microsoft.VisualStudio.QualityTools.UnitTestFramework.resources.dll
+D:\Program Files\Visual Studio 2015 Project\Arithmetic2.0\Arithmetic2.0Tests\obj\Debug\Arithmetic2.0Tests.csprojResolveAssemblyReference.cache
+D:\Program Files\Visual Studio 2015 Project\Arithmetic2.0\Arithmetic2.0Tests\obj\Debug\Arithmetic2.0Tests.dll
+D:\Program Files\Visual Studio 2015 Project\Arithmetic2.0\Arithmetic2.0Tests\obj\Debug\Arithmetic2.0Tests.pdb
